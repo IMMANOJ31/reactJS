@@ -9,7 +9,7 @@ console.log('Number of days:', noOfDays);
 let noOfWeeks = 2;
 noOfWeeks = 4;
 console.log('Number of weeks:', noOfWeeks);
-;
+
 
 // const cannot be re-assigned or re-declared
 const noOfMonths = 12;
@@ -20,5 +20,18 @@ var arrow = () => {
     console.log('Arrow Function');
 }
 
+arrow();
 console.log(arrow); // prints the function definition
-console.log(arrow()); // prints 'Arrow Function'
+
+
+function xworkz(){
+    var trainee = 'Software Developer';
+    console.log('Trainee Role:', trainee);
+}
+
+function executeCallBack(xworkz){
+    console.log('Executing Callback Function');
+    xworkz();
+}
+
+executeCallBack(xworkz);
