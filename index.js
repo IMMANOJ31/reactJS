@@ -35,3 +35,5 @@ function executeCallBack(xworkz){
 }
 
 executeCallBack(xworkz);
+
+setTimeout(xworkz, 2000); // Calls xworkz after 2 seconds
